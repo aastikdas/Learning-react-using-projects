@@ -8,11 +8,17 @@
     background-color: gray;
     position: sticky;
     bottom: 60px; 
+    box-shadow: 5px 5px 16px 5px white;
+    transition: all 500ms ease-in-out;
+}
+.box:hover{
+    box-shadow: none;
+    cursor: pointer;
 }
 
 .container{
     position: relative;
-    height: 200vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
